@@ -9,7 +9,7 @@ exports.doCharge = function(req, res, next) {
   // console.log('Charging request', reqBody);
   // console.log("huba");
 
-  var chargeToken = 'Basic ' + new Buffer('SB-Mid-server-v3SOA6yd2pYXsymdalJpmW2d').toString('base64'); // Dummy Charge Token
+  var chargeToken = 'Basic ' + new Buffer('SB-Mid-server-JRwqmomhLHJU_wylHMTVBY6h').toString('base64'); // Dummy Charge Token
   var url = "https://app.sandbox.midtrans.com/snap/v1/transactions";
 
   request.post({
